@@ -49,3 +49,15 @@ label{
 	text-decoration: none;
 	font-size: 10pt;
 }
+@media screen and (max-width: 1000px){
+	.kotak_login{
+		width: 80%;
+	}
+}
+
+@media screen and (max-width: 200px) {
+	.topnav a {
+	  float: left;
+	  width: 100%;
+	}
+  }
