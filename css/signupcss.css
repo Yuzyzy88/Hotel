@@ -1,0 +1,110 @@
+body {
+    font-family: sans-serif;
+    background: #FCF951FF;
+}
+/* for make table form */
+.box_signup {
+    width: 350px;
+    background: white;
+    margin: 80px auto;
+    padding: 30px 20px;
+}
+/* for make sign up word */
+.content_sign {
+    text-align: center;
+    text-transform: uppercase; /*capital */
+}
+/* for make colomn be tidied */
+label {
+    font-size: 11pt;
+}
+/* for make table form have a size */
+.form_signup {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    font-size: 11pt;
+    margin-bottom: 20px;
+}
+/* for click button */
+.sign_button {
+    background: #46de4b;
+    color: white;
+    font-size: 11pt;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    padding: 10 px 20px;
+}
+/* to change colour the text of hyperlink */
+.link {
+    color: #232323;
+    text-decoration: none;
+    font-size: 10pt;
+}
+
+@media screen and (max-width:959px){
+    #container{
+        width   : 100%;
+    }
+    #left-column{
+        width   : 70%;
+    }
+    #right-column{
+        width   : 30%;
+        }
+    img{
+        width   : 100%;
+    }
+}
+/******************************************
+    MEDIA QUERIES ( Responsive )
+*******************************************/
+@media screen and (max-width:1080px){
+        .container{
+            width   : 100%;
+        }
+
+        .left{
+            width       : 25%;
+            background  : #D6CCFE;
+        }
+
+        .middle{
+            width   : 68%;
+            float   : right;
+
+        }
+
+        .right{
+            clear   : both;
+            padding : 1% 4%;
+            width: auto;
+            float   : none;
+            background  : #D6CCFE;
+        }
+}
+
+/* untuk ukuran layar 700px kebawah */
+@media screen and (max-width: 780px) {
+
+    .header, 
+    .footer{
+        text-align: center;
+    }
+    .left {
+        width: auto;
+        float: none;
+    }
+
+    .middle {
+        width: auto;
+        float: none;
+    }
+
+    .right {
+        width: auto;
+        float: none;
+    }
+
+}
