@@ -8,7 +8,7 @@ body {
 .header {
   padding: 30px;
   text-align: center;
-  background: #FCF951FF;
+  background: #fcf951ff;
 }
 
 .header h1 {
@@ -18,7 +18,7 @@ body {
 /* Style the top navigation bar */
 .topnav {
   overflow: hidden;
-  background-color: #0E2F56;
+  background-color: #0e2f56;
 }
 
 /* Style the topnav links */
@@ -35,6 +35,6 @@ body {
 .footer {
   padding: 20px;
   text-align: center;
-  background: #FCF951FF;
+  background: #fcf951ff;
   margin-top: 20px;
 }
